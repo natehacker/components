@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #f8f9fb;
+            width: 48%;
+            padding: 20px;
+            color: #333;
+            font-size: 14px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .options-wrapper {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .option {
+            width: 100%;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        .first {
+            font-size: larger;
+        }
+
+        .label1 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="container">
+            <div class="options-wrapper">
+                <div class="option">
+                    <label class="label1">Select Jurisdiction</label>
+                    <select class="first" id="first">
+                        <option value="">ALL</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="options-wrapper">
+                <div class="option">
+                    <label class="label1">Select Jurisdiction</label>
+                    <select class="first" id="first">
+                        <option value="">ALL</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
